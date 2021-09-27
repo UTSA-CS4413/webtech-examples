@@ -1,0 +1,5 @@
+/* background example css file */
+.container {
+    height: 100%;
+    background: #ADD8E6 url("../img/clouds.jpg") 200px 200px/150px 150px no-repeat;
+}
