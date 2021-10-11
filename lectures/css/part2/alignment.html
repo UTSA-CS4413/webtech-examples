@@ -1,0 +1,62 @@
+<html lang="en-US">
+<!--alignment.html-->
+    <head>
+    <style>
+        td {
+            border-style: solid;
+            border-width: medium;
+            width: 150px;
+        }
+
+        tr {
+            height: 150px;
+        }
+
+        .top {
+            vertical-align: top;
+        }
+        
+        .middle {
+            vertical-align: middle;
+        }
+
+        .right{
+            text-align: right;
+        }
+
+        .bottom-center {
+            vertical-align: bottom;
+            text-align: center;
+        }
+
+        .stretch {
+            text-align: justify;
+        }
+
+        .top-right {
+            vertical-align: top;
+            text-align: right;
+        }
+
+        .middle-center {
+            vertical-align: middle;
+            text-align: center;
+        }
+    </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td class="bottom-center">bottom center</td>
+                <td class="right top">top right</td>
+                <td class="stretch top">This is stretched so all lines appear as the same length (except the last one).</td>
+            </tr>
+            <tr>
+                <td class="middle right">middle right</td>
+                <td class="middle-center">middle center</td>
+                <td class="stretch">This is stretched so all lines appear as the same length (except the last one).</td>
+            </tr>
+        </table>
+    </body>
+</html>
+
