@@ -14,3 +14,4 @@ if (true) { // TODO change condition
     if (true) // TODO change condition
         echo "<p>This lecture has an assignment.</p>";
 }
+html_bottom();
