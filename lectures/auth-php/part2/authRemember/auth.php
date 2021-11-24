@@ -24,10 +24,10 @@ if (!empty($_SESSION['user_id'])) {
         header("Location: dashboard.php");
         exit();
     }else{
-        mysqli_close($con);
         // delete token from cookie and database
         setcookie('remember', '', 1, '/');
         mysqli_query($con, "DELETE FROM auth_tokens WHERE token = '$token'");
+        mysqli_close($con);
     }
 }
 
