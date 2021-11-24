@@ -1,0 +1,22 @@
+<!-- varIssues.html -->
+<html lang="en">
+<script type="text/javascript">
+    var foo = "foo outside block";
+
+    if (true) {
+        // foo can be redeclared
+        var foo = "foo inside block";
+    }
+
+    console.log("foo = " + foo);
+
+    let bar = "bar outside block";
+
+    if (true) {
+        // this is NOT a redeclaration
+        let bar = "bar inside block";
+    }
+
+    console.log("bar = " + bar);
+</script>
+</html>

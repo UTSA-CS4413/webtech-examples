@@ -1,0 +1,11 @@
+form label {
+    min-width: 150px;
+    display: inline-block;
+    padding: 5px;
+    text-align: right;
+}
+
+
+.error {
+    color: #FF0000;
+}
