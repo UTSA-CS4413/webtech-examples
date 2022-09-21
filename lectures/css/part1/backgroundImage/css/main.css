@@ -1,0 +1,10 @@
+/* background example css file */
+.container {
+    height: 100%;
+    background-color: #ADD8E6;
+    background-image: url("../img/clouds.jpg");
+    background-position: 200px 200px;
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    /* background: #ADD8E6 url("img/clouds.jpg") 200px 200px/150px 150px no-repeat; */
+}

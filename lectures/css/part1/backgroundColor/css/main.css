@@ -1,0 +1,20 @@
+/* Example css file */
+.main-content {
+    font: small-caps 1.5em Arial, Helvetica, sans-serif;
+    background-color: orange;
+}
+
+.description {
+    color: green;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.emphasize {
+    color: blue;
+}
+
+.strong-text {
+    color: blue;
+    font-weight: bold;
+}
