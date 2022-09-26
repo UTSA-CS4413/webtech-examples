@@ -1,0 +1,40 @@
+<html lang="en-US">
+<!--floatOverflow.html-->
+    <head>
+        <style>
+#container {
+    border-width: 2px;
+    border-color: #0000FF;
+    border-style: solid;
+    width: 200px;
+    background-color: #87CEFA;
+    /* overflow: auto; */
+}
+
+#floating {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #FF0000;
+    width: 80px;
+    background-color: #FA8072;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    float: right;
+}
+
+#content {
+    padding: 1em;
+}
+        </style>
+    </head>
+    <body>
+        <div id=container>
+            <div id=floating>
+                <strong>#floating</strong>
+            </div>
+            <div id=content>
+            </div>
+        </div>
+    </body>
+</html>
